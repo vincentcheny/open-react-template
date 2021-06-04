@@ -74,7 +74,7 @@ const Hero = ({
                       zoom: 2,
                     }}
                   >
-                    <pointLight position={[-10, -10, -10]} intensity={2.0}/>
+                    <pointLight position={[-10, -10, -10]} intensity={1.3}/>
                     <Suspense fallback={null}>
                       <Model />
                     </Suspense>
